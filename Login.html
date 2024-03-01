@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script type="text/javascript" src="LoginScript.js"></script>
+    <link rel="stylesheet" href="Blog-Styles.css">
+    <title>
+
+        Blog Login
+    </title>
+    <header class="head">
+        <h1>Blog Site</h1>
+        <a href="http://www2.cs.uregina.ca/~jfk188/Assignment3/Post-List-Page.html"><img src="home.png" alt="home" width="50" height="50"></a>
+    </header>
+
+</head>
+    <body>
+        
+        
+        <div class="container">
+            
+            <section class="label"><b>Login</b></section>
+            <form class="forms" id="Login" action="http://www2.cs.uregina.ca/~jfk188/Assignment3/Post-List-Page.html"> 
+                <br>
+                <table>
+                    
+                    <tr>
+                        <td><label>Email:</label></td>
+                        <td><input type="text" name="email" size="25" placeholder="email"></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td class = "error" id="emailError"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label>Password:</label></td>
+                        <td><input type="password" id="password" name="password" size="25" placeholder="Password"></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td class = "error" id="pswdError"></td>
+                    </tr>
+            </table>
+                <br>
+                <input type="submit" value="Login" size="25" class="LoginSignUp"/>
+            </form>
+
+            <script type="text/javascript" src="LoginScript_r.js"></script>
+            
+        </div>
+    </body>
+</html>

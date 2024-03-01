@@ -1,0 +1,11 @@
+James Kress - 200429558
+CS 215-398
+http://www2.cs.uregina.ca/~jfk188/Assignment5/Post-List-Page.php 
+
+Login.php: allows users to login.
+Logout.php: logs a user out.
+SignUp.php: allows ussers to signup.
+Post-List-Page.php: shows the 20 most recent posts.
+Repost-Page.php: allowss a user to repost another users post.
+Post-Page: allows a user to make a post.
+User-Detail-Page: Displays a particular usser's profile and all of their posts.

@@ -1,0 +1,244 @@
+*{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body{
+    background-color: RGB(143, 120, 196);
+}
+
+.head{
+    height: 100%;
+    width: 97.7%;
+    display: inline-block;
+    position: sticky;
+    padding-left: 40px;
+    padding-top: 10px;
+    border-bottom: 2px solid black;
+    background-color: RGB(143, 0, 126);
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 1.5fr;
+    grid-template-rows: 0.25fr 0.25fr 2fr;
+    align-items: center;
+}
+
+.userHeader{
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+    background-color: RGB(195, 68, 122);
+}
+
+.label{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    height: 100%;
+    font-size: 30pt;
+    padding: 20px;
+    color: white;
+    background-color: RGB(195, 68, 122);
+}
+
+.forms{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: RGB(152, 180, 212);
+    border: 5px solid black;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-left: 20%;
+    padding-bottom: 10%;
+    font-size: 20pt;
+}
+
+.error{
+    color: red;
+    text-decoration: underline;
+    font-size: 10pt;
+}
+
+.date{
+    float: inline-end;
+    
+    font-size: 11pt;
+    padding-right: 10px; 
+    color:white;
+}
+
+.interact{
+    display: inline-block;
+}
+
+
+
+.bio{
+    padding-left: 80px;
+}
+
+.LoginSignUp{
+    font-size: 16pt;
+    border:2px solid deepskyblue;
+    border-radius: 8px;
+    padding: 12px 28px;
+    transition-duration: 0.4s;
+}
+
+.LoginSignUp:hover{
+    background-color: deepskyblue;
+    color: white;
+}
+
+.like{
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 3px;
+    float: left;
+    margin-right: 10px;
+}
+
+.dislike{
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 3px;
+    transition-duration: 0.4s;
+    float:left;
+    margin-right: 10px;
+}
+
+.repost{
+    font-size: 15px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    padding: 3px;
+    transition-duration: 0.4s;
+    float:left;
+    
+}
+
+.repost:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+
+textarea{
+    color: grey;
+    resize: none;
+}
+
+h1{
+    font-size: 30pt;
+}
+
+h2{
+    font-size: 25pt;
+}
+
+.PFP{
+    float:left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/*Main Page Styling*/
+*{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body{
+    background-color: RGB(143, 120, 196);
+}
+
+.head{
+    height: 100%;
+    width: 98%;
+    display: inline-block;
+    position: sticky;
+    padding-left: 40px;
+    padding-top: 10px;
+    border-bottom: 2px solid black;
+    background-color: RGB(143, 0, 126);
+    
+}
+.info{
+    float: right;
+    padding-right: 20px;
+}
+
+.info>a{
+    font-size: 14pt;
+    color: white;
+}
+
+.side{
+    border: 2px solid black;
+    background-color: RGB(184, 177, 199);
+    display: fixed;
+    float: left;
+}
+
+.rows{
+    padding-top: 10px;
+    padding-bottom:70px;
+    text-align: center;
+}
+
+.sideBut{
+    font-size: 16pt;
+    border:2px solid deepskyblue;
+    border-radius: 8px;
+    padding: 12px 28px;
+    transition-duration: 0.4s;
+}
+
+.sideBut:hover{
+    background-color: deepskyblue;
+    color: white;
+}
+
+.post{
+    display: inline-block;
+    width: 50%;
+    margin-left: 200px;
+    
+}
+
+.posthead{
+    background-color: RGB(195, 68, 122);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:5px solid black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+ 
+
+.contents{
+    background-color: RGB(152, 180, 212);
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 10px;
+    padding-bottom:50px;
+}
